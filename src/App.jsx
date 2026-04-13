@@ -104,8 +104,8 @@ function Footer() {
   );
 }
 
-function Button() {
-  return <button className="add-to-cart-button">Add to Cart</button>;
+function Button(props) {
+  return <button className="add-to-cart-button">{props.buttonText}</button>;
 }
 
 function App() {
